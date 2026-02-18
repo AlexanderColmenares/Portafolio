@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+  margin: 0%;
+}
+
+body{
+  background-color:#e5c07b ;
+
+}
+
+nav{
+  background-color:#4577a1 ;
+  width:100% ;
+  height:10vh ;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+}
+
+.Nav-User{
+  display: flex;
+  width:30% ;
+  flex-direction: row;
+  gap: 20px;
+  padding-left: 20px;
+  font-size: 25px;
+  
+}
