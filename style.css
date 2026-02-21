@@ -46,3 +46,101 @@ nav{
   cursor: pointer ;
   
 }
+
+
+.container{
+  display: flex;
+  flex-direction: row;
+
+}  
+}
+
+
+.description{
+  float: left;
+  border-radius: 10vh;
+  margin: 5vh;
+  background-color:#5e5e5e;
+  padding: 5vh;
+  font-size: 100%;
+  width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5vh;
+    color: white;
+
+}
+
+.botonera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10vh;
+  flex-direction: column;
+  width: 20%;
+  
+  float: right;
+  background-color: #7ba0e5;
+  margin-top: 5vh;
+  margin-right: 05vh;
+  padding-right: 10vh;
+  color: white;
+  gap: 2vh;
+
+}
+
+.fila-botones{
+  display: flex;
+  
+  flex-direction: row;
+ gap: 4vh;
+}
+
+.linkedin-b button a i{
+ color: #4577a1;
+  
+  font-size: 10vh;
+}
+.linkedin-b button{
+  border-radius: 100%;
+ 
+
+}
+
+
+
+.github-b button a i{
+ 
+  color: #f0f6fc;
+  font-size: 10vh;
+}
+.github-b button{
+  border-radius: 100%;
+  background-color: #1f232a;
+
+}
+
+
+footer{
+  float: inherit;
+text-align: center; 
+  background-color: #324948;
+  position: end;
+width: 100%;
+height: auto;
+display: flex;
+flex-direction: column;
+margin-top: 200vh;
+color: #97ccaa;
+font-size: 5vh;
+
+}
+
+.botonera ul li{
+  display: flex;
+  flex-direction: column;
+padding: 5vh;
+
+}
