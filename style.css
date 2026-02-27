@@ -5,8 +5,7 @@
 
 body{
   background-color:#e5c07b ;
-
-}
+  }
 
 nav{
   background-color:#4577a1 ;
@@ -27,7 +26,7 @@ nav{
   font-size: 9vh; }
 
  .Enlaces{
-  gap: 7vh;
+  gap: 4vh;
  font-size: 5vh; 
 
   display: flex;
@@ -56,8 +55,7 @@ nav{
 
 
 .description{
-  float: left;
-  border-radius: 10vh;
+    border-radius: 10vh;
   margin: 5vh;
   background-color:#5e5e5e;
   padding: 5vh;
@@ -66,20 +64,21 @@ nav{
     height: auto;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     margin-top: 5vh;
     color: white;
 
 }
 
 .botonera {
+  float: right;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10vh;
   flex-direction: column;
   width: 20%;
-  
+ height: auto; 
   float: right;
   background-color: #7ba0e5;
   margin-top: 5vh;
@@ -123,17 +122,16 @@ nav{
 
 
 footer{
-  float: inherit;
+
 text-align: center; 
   background-color: #324948;
-  position: end;
+  
 width: 100%;
-height: auto;
-display: flex;
-flex-direction: column;
-margin-top: 200vh;
+height: auto ;
+
+margin-top: 50vh;
 color: #97ccaa;
-font-size: 5vh;
+font-size: 4vh;
 
 }
 
@@ -142,21 +140,22 @@ font-size: 5vh;
   flex-direction: column;
 padding: 5vh;
 
+
 }
 .clearfix{
   clear: both;
 }
 
 
- @media (min-width:768px){
+ @media (max-width:768px){
   .description{
   float: left;
-  border-radius: 10vh;
+  border-radius: 05vh;
   margin: 1vh;
   background-color:#5e5e5e;
   padding: 1vh;
-  font-size: 4vh;
-  width: 60%;
+  font-size: 100%;
+  width: 70%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -173,7 +172,7 @@ padding: 5vh;
      }
 
   html, body{
-    overflow-y: hidden;
+    overflow-x: hidden;
     width: 100%;
   }
     nav{
@@ -188,11 +187,22 @@ padding: 5vh;
 
 .Nav-User{
   display: flex;
-  width:30% ;
+  width:20% ;
   flex-direction: row;
-  gap: 5vh;
-  padding-left: 5vh;
-  font-size: 9vh; }
+  gap: 1vh;
+  padding-left: 1vh;
+  font-size: 3vh; }
+
+  .Enlaces{
+    clear: both;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .Enlaces a {
+    margin-top: 1vh; 
+    font-size: 2vh;
+  }
 
 
 
