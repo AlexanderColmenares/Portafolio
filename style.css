@@ -24,9 +24,9 @@ nav{
   flex-direction: row;
   gap: 5vh;
   padding-left: 5vh;
-  font-size: 9vh;
+  font-size: 9vh; }
 
-.Enlaces{
+ .Enlaces{
   gap: 7vh;
  font-size: 5vh; 
 
@@ -53,7 +53,6 @@ nav{
   flex-direction: row;
 
 }  
-}
 
 
 .description{
@@ -144,3 +143,59 @@ font-size: 5vh;
 padding: 5vh;
 
 }
+.clearfix{
+  clear: both;
+}
+
+
+ @media (min-width:768px){
+  .description{
+  float: left;
+  border-radius: 10vh;
+  margin: 1vh;
+  background-color:#5e5e5e;
+  padding: 1vh;
+  font-size: 4vh;
+  width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5vh;
+    color: white;
+
+}
+
+
+  * {
+     box-sizing: border-box;
+
+     }
+
+  html, body{
+    overflow-y: hidden;
+    width: 100%;
+  }
+    nav{
+  background-color:#4577a1 ;
+  width:100% ;
+  height:10vh ;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+}
+
+.Nav-User{
+  display: flex;
+  width:30% ;
+  flex-direction: row;
+  gap: 5vh;
+  padding-left: 5vh;
+  font-size: 9vh; }
+
+
+
+  }
+
+
