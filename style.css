@@ -1,72 +1,73 @@
-*{
-    padding: 0%;
+* {
+  padding: 0%;
   margin: 0%;
 }
 
-body{
-  background-color:#e5c07b ;
-  }
+body {
+  background-color: #e5c07b;
+}
 
-nav{
-  background-color:#4577a1 ;
-  width:100% ;
-  height:10vh ;
+nav {
+  background-color: #4577a1;
+  width: 100%;
+  height: 10vh;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
   color: white;
 }
 
-.Nav-User{
+.Nav-User {
   display: flex;
-  width:30% ;
+  width: 30%;
   flex-direction: row;
   gap: 5vh;
   padding-left: 5vh;
-  font-size: 9vh; }
+  font-size: 9vh;
+}
 
- .Enlaces{
+.Enlaces {
   gap: 4vh;
- font-size: 5vh; 
+  font-size: 5vh;
 
   display: flex;
   align-items: center;
 }
 
 
-.Enlaces a{
+.Enlaces a {
   text-decoration: none;
   color: white;
 
 }
 
-.Enlaces a:hover{
+.Enlaces a:hover {
   color: #e5c07b;
-  cursor: pointer ;
-  
+  cursor: pointer;
+
 }
 
 
-.container{
+.container {
   display: flex;
   flex-direction: row;
 
-}  
+}
 
 
-.description{
-    border-radius: 10vh;
+.description {
+  border-radius: 10vh;
   margin: 5vh;
-  background-color:#5e5e5e;
+  background-color: #5e5e5e;
   padding: 5vh;
   font-size: 100%;
   width: 60%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 5vh;
-    color: white;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 5vh;
+  color: white;
 
 }
 
@@ -78,7 +79,7 @@ nav{
   border-radius: 10vh;
   flex-direction: column;
   width: 20%;
- height: auto; 
+  height: auto;
   float: right;
   background-color: #7ba0e5;
   margin-top: 5vh;
@@ -89,73 +90,76 @@ nav{
 
 }
 
-.fila-botones{
+.fila-botones {
   display: flex;
-  
+
   flex-direction: row;
- gap: 4vh;
+  gap: 4vh;
 }
 
-.linkedin-b button a i{
- color: #4577a1;
-  
+.linkedin-b button a i {
+  color: #4577a1;
+
   font-size: 10vh;
 }
-.linkedin-b button{
+
+.linkedin-b button {
   border-radius: 100%;
- 
+
 
 }
 
 
 
-.github-b button a i{
- 
+.github-b button a i {
+
   color: #f0f6fc;
   font-size: 10vh;
 }
-.github-b button{
+
+.github-b button {
   border-radius: 100%;
   background-color: #1f232a;
 
 }
 
 
-footer{
+footer {
 
-text-align: center; 
+  text-align: center;
   background-color: #324948;
-  
-width: 100%;
-height: auto ;
 
-margin-top: 50vh;
-color: #97ccaa;
-font-size: 4vh;
+  width: 100%;
+  height: auto;
+
+  margin-top: 50vh;
+  color: #97ccaa;
+  font-size: 4vh;
 
 }
 
-.botonera ul li{
+.botonera ul li {
   display: flex;
   flex-direction: column;
-padding: 5vh;
+  padding: 5vh;
 
 
 }
-.clearfix{
+
+.clearfix {
   clear: both;
 }
 
 
- @media (max-width:768px){
-  .description{
-  float: left;
-  border-radius: 05vh;
-  margin: 1vh;
-  background-color:#5e5e5e;
-  padding: 1vh;
-  font-size: 100%;
-  width: 70%;
+@media (max-width:768px) {
+  .description {
+    float: left;
+    border-radius: 05vh;
+    margin: 1vh;
+    background-color: #5e5e5e;
+    padding: 1vh;
+    font-size: 100%;
+    width: 70%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -163,49 +167,51 @@ padding: 5vh;
     margin-top: 5vh;
     color: white;
 
-}
+  }
 
 
   * {
-     box-sizing: border-box;
+    box-sizing: border-box;
 
-     }
+  }
 
-  html, body{
+  html,
+  body {
     overflow-x: hidden;
     width: 100%;
   }
-    nav{
-  background-color:#4577a1 ;
-  width:100% ;
-  height:10vh ;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  color: white;
-}
 
-.Nav-User{
-  display: flex;
-  width:20% ;
-  flex-direction: row;
-  gap: 1vh;
-  padding-left: 1vh;
-  font-size: 3vh; }
+  nav {
+    background-color: #4577a1;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+  }
 
-  .Enlaces{
+  .Nav-User {
+    display: flex;
+    width: 20%;
+    flex-direction: row;
+    gap: 1vh;
+    padding-left: 1vh;
+    font-size: 3vh;
+  }
+
+  .Enlaces {
     clear: both;
     display: flex;
     flex-direction: column;
 
   }
+
   .Enlaces a {
-    margin-top: 1vh; 
+    margin-top: 1vh;
     font-size: 2vh;
   }
 
 
 
-  }
-
-
+}
